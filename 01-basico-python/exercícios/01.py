@@ -1,0 +1,12 @@
+print('---CADASTRO---')
+nome = input('Digite o seu nome: ')
+idade = input('Digite a sua idade: ')
+cidade = input('Digite a sua cidade: ')
+altura = float(input('Digite a sua altura em metros: '))
+carteira = input('Possui careteira de motorista? (S/N)')
+possui_carteira = carteira == 'S' or carteira == 's'
+print(f'Nome:{nome}')
+print(f'Idade:{idade}')
+print(f'cidade:{cidade}')
+print(f'altura:{altura}')
+print(f'Possui carteira:{possui_carteira}')
