@@ -1,9 +1,9 @@
-saldo = 10
+saldo = 500
 
 while saldo > 0:
-    saque = float(input('Dejesa sacar quanto? Ou 0 para encerrar. '))
+    saque = float(input('Dejesa sacar quanto? Ou 0 para encerrar:0 '))
     if saque == 0:
-        print('Não é possivel sacar 0 R$')
+        print('Saque encerrado')
         break
 
     if saque > saldo:
