@@ -1,12 +1,12 @@
 print('===== MINIGAME NUMERO SECRETO =====')
 import random
 
-numero_secreto = random.randint(1,20)
+numero_secreto = random.randint(1,100)
 tentativas = 1
 
 while tentativas <= 5:
     print(f'Tentativa {tentativas} de 5')
-    chute = int(input('Chute um número de 0 a 20: '))
+    chute = int(input('Chute um número de 1 a 100: '))
 
     if chute == numero_secreto:
         print('Parabens vc acerou o numero secreto! ')
