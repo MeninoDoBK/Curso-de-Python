@@ -8,7 +8,6 @@
 # print(f'A sua média é de:',{round(soma_notas,1)})
 
 
-
 # carros = ['Fusca','Kombi','Golfe','Ferrari','BMW']
 
 # for i in carros:
@@ -26,6 +25,15 @@ notas = [5.5 , 8 , 9.2 ,5]
 soma = 0
 for i in notas:
     soma = soma + i
-
+ 
 media = soma / len(notas)
-print(f'A sua média é de: {media}')
+print(f'A sua média é de: {round(media,2)}')
+
+if media >= 7:
+    print(f'Sua media foi de: {round(media,2)} - APROVADO ')
+elif media >= 5 or media <= 6.9:
+    print(f'Sua media foi de: {round(media,2)}) - RECUPERAÇÃO')
+
+else:
+    media <= 4.9
+    print(f'Sua media foi de: {round(media,2)}) - REPROVADO  ')
