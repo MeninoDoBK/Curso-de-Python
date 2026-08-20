@@ -34,4 +34,4 @@ print('\n')
 def usuario(nome):
     return(nome)
 name = usuario(nome)
-print(f'Olá {nome}, seja bem vindo(a)!')                 # (Eu que fiz)
+print(f'Olá {nome}, seja bem vindo(a)!')                # (Eu que fiz)
