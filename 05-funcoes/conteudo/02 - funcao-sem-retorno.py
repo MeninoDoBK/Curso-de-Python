@@ -1,3 +1,4 @@
+
 def menu():
     print('Digite: 1 ,Para falar com a atendente')
     print('Digite: 2, Para trocar de musica')
